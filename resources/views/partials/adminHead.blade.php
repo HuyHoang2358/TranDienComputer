@@ -1,6 +1,6 @@
 
 <!-- Favicon -->
-<link rel="shortcut icon" href="{{asset('adminPanel/images/favicon.ico')}}" />
+<link rel="shortcut icon" href="{{asset('images/logo/favicon.ico')}}" />
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="{{asset('adminPanel/css/bootstrap.min.css')}}">
 <!-- Typography CSS -->
