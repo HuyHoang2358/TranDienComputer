@@ -1,8 +1,7 @@
 <div class="iq-sidebar">
     <div class="iq-sidebar-logo d-flex justify-content-between">
-        <a href="index.html">
-            <img src="{{asset('adminPanel/images/logo.png')}}" class="img-fluid" alt="">
-            <span>XRay</span>
+        <a href="{{route('admin.homepage')}}">
+            <img src="{{asset('images/logo/TDC_256.png')}}" class="img-fluid" alt="">
         </a>
         <div class="iq-menu-bt-sidebar">
             <div class="iq-menu-bt align-self-center">
@@ -16,7 +15,7 @@
     <div id="sidebar-scrollbar">
         <nav class="iq-sidebar-menu">
             <ul id="iq-sidebar-toggle" class="iq-menu">
-                <li class="iq-menu-title"><i class="ri-subtract-line"></i><span>Dashboard</span></li>
+                <li class="iq-menu-title"><i class="ri-subtract-line"></i><span>Trang chủ</span></li>
                 <li class="active">
                     <a href="index.html" class="iq-waves-effect"><i class="ri-hospital-fill"></i><span>Doctor Dashboard</span></a>
                 </li>
