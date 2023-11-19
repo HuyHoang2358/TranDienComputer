@@ -10,3 +10,6 @@
 <!-- Responsive CSS -->
 <link rel="stylesheet" href="{{asset('adminPanel/css/responsive.css')}}">
 <link rel="stylesheet" href="{{asset('adminPanel/css/flatpickr.min.css')}}">
+<!-- TinyMCE  -->
+@include('components.tinymce-config')
+

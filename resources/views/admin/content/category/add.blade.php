@@ -28,6 +28,13 @@
                                 <label class="custom-file-label" for="customFile">Chọn file</label>
                             </div>
                         </div>
+                        <div class="">
+                            <label for="slug">Link Icon:</label>
+                            <textarea type="file" class="" id="myeditorinstance"> </textarea>
+
+                        </div>
+
+
                         <button type="submit" class="btn btn-primary">Submit</button>
                         <a href="{{redirect()->back()}}"><button type="button" class="btn iq-bg-danger">Cancel</button></a>
                     </form>
