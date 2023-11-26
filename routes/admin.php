@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\CategoryController;
+use App\Http\Controllers\Admin\FileManager;
 use App\Http\Controllers\Admin\MainController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\LoginController;
@@ -23,6 +24,10 @@ Route::namespace('admin')->group(function () {
         Route::get('/edit/{id}', [CategoryController::class,'edit'])->name('admin.category.edit');
         Route::post('/edit/{id}', [CategoryController::class,'update'])->name('admin.category.update');
         Route::get('/delete/{id}', [CategoryController::class,'destroy'])->name('admin.category.delete');
+    });
+    // Category manager
+    Route::group(['prefix'=>'media'],function() {
+        Route::get('/', [FileManager::class,'index'])->name('admin.fileManager.index');
     });
 
 
